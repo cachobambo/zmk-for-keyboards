@@ -21,9 +21,6 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-hardware-nicekeyboards
-      remote: zmkfirmware
-      revision: main
     - name: hammerbeam-slideshow
       remote: gpeye
       revision: main
