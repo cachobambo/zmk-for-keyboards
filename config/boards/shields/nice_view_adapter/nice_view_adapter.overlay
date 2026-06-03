@@ -33,7 +33,11 @@ nice_view_spi: &spi0 {
         height = <68>;
     };
 };
-
+/ {
+    chosen {
+        zephyr,display = &nice_view;
+    };
+};
 &pro_micro_i2c {
     status = "disabled";
 };
