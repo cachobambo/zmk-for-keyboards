@@ -1,9 +1,1 @@
-&nice_view_spi {
-    nice_view: ls0xx@0 {
-        compatible = "sharp,ls0xx";
-        spi-max-frequency = <1000000>;
-        reg = <0>;
-        width = <160>;
-        height = <68>;
-    };
-};
+/* Display declared in nice_view_adapter.overlay */
