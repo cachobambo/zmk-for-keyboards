@@ -123,7 +123,7 @@
             bindings = <
 &kp ESC       &kp Q  &kp W  &kp E     &kp R         &kp T      &kp Y         &kp U            &kp I                  &kp O           &kp P           &kp BSPC
 &hm CAPS TAB  &kp A  &kp S  &kp D     &kp F         &kp G      &kp H         &kp J            &kp K                  &kp L           &kp UP_ARROW    &hm PERIOD COMMA
-&kp LSHFT     &kp Z  &kp X  &kp C     &kp V         &ltq 5 B   &kp N         &kp M            &hm RIGHT_SHIFT SLASH  &kp DOWN_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&kp LSHFT     &kp Z  &kp X  &kp C     &kp V         &ltq 5 B   &kp N         &kp M            &hm RIGHT_SHIFT SLASH  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
                             &kp LALT  &ltq 1 SPACE  &kp LCTRL  &ltq 1 SPACE  &ltq 2 LEFT_WIN  &ltq 3 KP_ENTER
             >;
         };
